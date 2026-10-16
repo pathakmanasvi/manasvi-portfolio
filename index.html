@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manasvi Pathak — Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="#top" class="nav-name">Manasvi</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+  <div class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#playlist">Playlist</a>
+    <a href="#contact">Say hi</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Mumbai, India</p>
+    <h1>Manasvi Pathak</h1>
+    <p class="hero-sub">Data science student &middot; sea-lover &middot; dog person</p>
+    <a href="#about" class="btn">Come in, sit down</a>
+  </div>
+  <div class="hero-photos" id="heroPhotos">
+    <img src="assets/sea-silhouette.jpeg" alt="Standing by the sea at sunset" class="shuffle-photo slot-1">
+    <figure class="polaroid shuffle-photo slot-2">
+      <img src="assets/dog-layla.png" alt="Golden retriever named Layla">
+      <figcaption>Say hi to Layla!</figcaption>
+    </figure>
+    <img src="assets/food-pasta.jpeg" alt="Sharing squid ink pasta" class="shuffle-photo slot-3">
+  </div>
+</header>
+
+<section class="section" id="about">
+  <h2>About</h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm a third-year B.Tech Data Science student in Mumbai, currently deepening my skills in NLP and LLMs while building a portfolio of projects across analytics, machine learning, and automation. I'm working toward a career as a Data Analyst, Data Scientist, or Data Engineer, and I genuinely enjoy the process of taking messy, complicated data and turning it into something meaningful and useful.</p>
+      <p>Beyond academics and career goals, I'm someone who finds a lot of joy in the people and little things that make life feel full. I love spending time with my friends and family, trying new cuisines, and, honestly, thinking about food more often than I probably should. I love competing with the people I care about over board games, trying new things, and experiencing as much of life as I can — while still wanting to go home at the end of the day and eat the dal baati my mom makes.</p>
+      <p>I love cooking for people and then insisting they eat it, whether it turned out amazing or absolutely questionable. Feeding the people I love is one of the ways I show them that I care. I love late-night gossip sessions with my friends, being there for them when they need someone to listen, and being the person they can always count on for a shoulder to cry on.</p>
+      <p>I love karaoke, even if "singing" sometimes just means screaming the lyrics at the top of my lungs. I love the sea, I love dogs, and I love collecting little experiences and memories along the way.</p>
+      <p>At the heart of it all, I want to build a life where I can stand on my own two feet and never have to depend on anyone to create the life I want. But independence, to me, doesn't mean doing everything alone. I want to build a life that gives me the freedom to choose my own path while still holding on to the people I love — my friends and family — and having them by my side for the rest of my life.</p>
+    </div>
+    <div class="about-photos">
+      <img src="assets/sea-palms.jpeg" alt="Palm trees by the sea in Goa" class="photo-tilt">
+      <img src="assets/sea-bridge.jpeg" alt="Overlooking the sea from a balcony" class="photo-tilt tilt-2">
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="projects">
+  <h2>Projects that I've Made</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>AI Placement Prep Assistant</h3>
+      <p>A multi-agent LLM pipeline (Python, Gemini 2.5 Flash) that reads live job-market signals and generates a personalised 7-day interview prep roadmap.</p>
+    </div>
+    <div class="card">
+      <h3>Cricket, as a Markov Chain</h3>
+      <p>Modelled 260K+ IPL deliveries as a Markov chain to compute momentum shifts and scoring-state transitions, visualised as heatmaps.</p>
+    </div>
+    <div class="card">
+      <h3>MediConnect</h3>
+      <p>A normalised SQL schema for managing patient histories, staff schedules, and appointments.</p>
+    </div>
+  </div>
+
+  <h2 class="beyond-heading">Beyond the Classroom</h2>
+  <div class="card-grid three">
+    <div class="card soft">
+      <h3>Dance</h3>
+      <p>Part of my college dance club — performed on stage a few times, and it's still one of my favourite ways to let go.</p>
+    </div>
+    <div class="card soft">
+      <h3>Poetry</h3>
+      <p>I write poems, on and off. Some are good, most are just for me.</p>
+    </div>
+    <div class="card soft">
+      <h3>Community Service</h3>
+      <p>Volunteered at a women and children's shelter — small hours, but they stuck with me.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <h2>Skills &amp; Interests</h2>
+  <div class="skills-grid">
+    <div class="skill-block">
+      <h4>Languages</h4>
+      <p>Python, SQL, HTML, CSS</p>
+    </div>
+    <div class="skill-block">
+      <h4>Libraries</h4>
+      <p>pandas, scikit-learn, NumPy, Matplotlib, TensorFlow</p>
+    </div>
+    <div class="skill-block">
+      <h4>Tools &amp; BI</h4>
+      <p>Excel, Tableau, Power BI, Google Colab, DB Browser for SQLite</p>
+    </div>
+    <div class="skill-block">
+      <h4>Also know my way around</h4>
+      <p>Qiskit, Android Studio, AutoCAD, OCR &amp; image processing</p>
+    </div>
+    <div class="skill-block">
+      <h4>Currently learning</h4>
+      <p>NLP, Large Language Models</p>
+    </div>
+  </div>
+
+  <div class="tags">
+    <span class="tag">karaoke</span>
+    <span class="tag">board games</span>
+    <span class="tag">new cuisines</span>
+    <span class="tag">movies</span>
+    <span class="tag">dancing</span>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <h2>A Few of My Favourite Things</h2>
+  <div class="gallery-grid">
+    <figure class="gallery-item">
+      <img src="assets/food-pasta-italian.jpeg" alt="An Italian restaurant table with pasta, bread and oils">
+      <figcaption>definitely ordered too much</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="assets/food-noodles.jpeg" alt="A bowl of stir-fried noodles">
+      <figcaption>gone in about four minutes</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="assets/food-nachos.jpeg" alt="Nachos with guacamole and salsa">
+      <figcaption>brunch negotiations</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="assets/food-fruitbowl.jpeg" alt="A colourful fruit bowl">
+      <figcaption>the healthy exception</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="assets/food-thali.jpeg" alt="A full Rajasthani thali">
+      <figcaption>a full table, the way it should be</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="playlist">
+  <h2>The Playlist That Explains Me</h2>
+  <p>If you want to know me faster than any About section could, press play.</p>
+  <div class="playlist-frame">
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1b8d7QB9NaeXkSuK0qJJza?utm_source=generator&si=b424393fe9ff422a" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+</section>
+
+<section class="section alt" id="contact">
+  <h2>Say Hi!</h2>
+  <p class="contact-sub">Whether it's about data, food, or your dog — I'd love to hear from you.</p>
+  <div class="contact-links">
+    <a href="mailto:aasmgpathak@gmail.com">aasmgpathak@gmail.com</a>
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Made by Manasvi, with a lot of tea and one very good dog somewhere nearby.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
